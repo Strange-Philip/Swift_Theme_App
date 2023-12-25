@@ -14,6 +14,7 @@
 		D49F0AF52B39C0050023035E /* ThemeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49F0AF42B39C0050023035E /* ThemeAppTests.swift */; };
 		D49F0AFF2B39C0050023035E /* ThemeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49F0AFE2B39C0050023035E /* ThemeAppUITests.swift */; };
 		D49F0B012B39C0050023035E /* ThemeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49F0B002B39C0050023035E /* ThemeAppUITestsLaunchTests.swift */; };
+		D49F0B102B39C1A70023035E /* ThemeChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49F0B0F2B39C1A70023035E /* ThemeChangeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D49F0AFA2B39C0050023035E /* ThemeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49F0AFE2B39C0050023035E /* ThemeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeAppUITests.swift; sourceTree = "<group>"; };
 		D49F0B002B39C0050023035E /* ThemeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D49F0B0F2B39C1A70023035E /* ThemeChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		D49F0AE22B39C0030023035E /* ThemeApp */ = {
 			isa = PBXGroup;
 			children = (
+				D49F0B0E2B39C15D0023035E /* Helpers */,
 				D49F0AE32B39C0030023035E /* ThemeAppApp.swift */,
 				D49F0AE52B39C0030023035E /* ContentView.swift */,
 				D49F0AE72B39C0050023035E /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				D49F0B002B39C0050023035E /* ThemeAppUITestsLaunchTests.swift */,
 			);
 			path = ThemeAppUITests;
+			sourceTree = "<group>";
+		};
+		D49F0B0E2B39C15D0023035E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D49F0B0F2B39C1A70023035E /* ThemeChangeView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D49F0B102B39C1A70023035E /* ThemeChangeView.swift in Sources */,
 				D49F0AE62B39C0030023035E /* ContentView.swift in Sources */,
 				D49F0AE42B39C0030023035E /* ThemeAppApp.swift in Sources */,
 			);
